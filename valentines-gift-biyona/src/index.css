@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-950 text-white min-h-screen overflow-x-hidden antialiased;
+    background-image: 
+      radial-gradient(circle at 15% 50%, rgba(76, 29, 149, 0.15), transparent 25%), 
+      radial-gradient(circle at 85% 30%, rgba(219, 39, 119, 0.15), transparent 25%);
+  }
+}
+
+.glass-card {
+  @apply bg-white/5 backdrop-blur-lg border border-white/10 shadow-xl rounded-2xl;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-300;
+}
+
+/* Scrabble Tile Effect */
+.scrabble-tile {
+  @apply relative flex items-center justify-center bg-[#f4e4bc] text-black font-bold rounded-sm shadow-[2px_2px_0px_#b5a075] select-none transform hover:-translate-y-1 transition-transform;
+}
+
+.scrabble-score {
+  @apply absolute bottom-0.5 right-0.5 text-[0.6em] font-normal leading-none opacity-80;
+}
