@@ -7,7 +7,7 @@ import { Plane, MapPin } from 'lucide-react';
 
 function App() {
   return (
-    <div className="min-h-screen relative selection:bg-pink-500/30">
+    <div className="min-h-screen relative selection:bg-pink-500/30 overflow-x-hidden w-full max-w-full">
 
       {/* Decorative Ambient Background Elements */}
       <div className="fixed inset-0 pointer-events-none z-0">
