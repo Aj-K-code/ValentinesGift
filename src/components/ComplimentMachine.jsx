@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import confetti from 'canvas-confetti';
-import { Sparkles, RefreshCw } from 'lucide-react';
+import { Sparkles } from 'lucide-react';
 
 export const ComplimentMachine = () => {
     const [compliments, setCompliments] = useState([]);
@@ -18,7 +18,6 @@ export const ComplimentMachine = () => {
             })
             .catch(err => {
                 console.error("Failed to load compliments", err);
-                // Fallback
                 setCompliments(["You are amazing!", "I love you!"]);
                 setCurrentCompliment("You are amazing!");
                 setLoading(false);

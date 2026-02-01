@@ -8,7 +8,7 @@ export const DayCounter = () => {
     const [today, setToday] = useState(new Date());
 
     useEffect(() => {
-        const timer = setInterval(() => setToday(new Date()), 60000); // Update every minute is enough
+        const timer = setInterval(() => setToday(new Date()), 60000);
         return () => clearInterval(timer);
     }, []);
 
@@ -31,7 +31,6 @@ export const DayCounter = () => {
                 </h2>
 
                 <div className="flex items-center justify-center gap-4 my-2">
-                    {/* Heartbeat EKG visual could go here, but let's keep it simple focused on the number */}
                     <motion.div
                         animate={{ scale: [1, 1.2, 1] }}
                         transition={{ repeat: Infinity, duration: 1.5 }}
