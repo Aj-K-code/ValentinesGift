@@ -1,16 +1,31 @@
-# React + Vite
+# 💖 Valentine's Gift for Biyona
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautiful, personalized Valentine's Day website celebrating our relationship.
 
-Currently, two official plugins are available:
+## 🌐 Live Site
+**[https://Aj-K-code.github.io/ValentinesGift/](https://Aj-K-code.github.io/ValentinesGift/)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- **Day Counter**: Shows exactly how many days we've been together since January 1, 2026
+- **600 Custom Compliments**: Personalized messages about:
+  - Her journey to becoming a Nurse Practitioner
+  - Chess, pickleball, and rock climbing
+  - Our long-distance relationship (NY ↔ Chicago)
+  - Her family, intelligence, and everything I love about her
+- **Scrabble Tiles**: Her name displayed in beautiful Scrabble tiles
+- **Interactive Confetti**: Click "Tell me something sweet" for a new compliment with confetti animation
+- **Photo Gallery**: Memories of us together
+- **Responsive Design**: Looks beautiful on mobile and desktop
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- React + Vite
+- Tailwind CSS
+- Framer Motion (animations)
+- Canvas Confetti
+- Date-fns
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💝 Made with Love
+
+Built for my future wife, Biyona.
