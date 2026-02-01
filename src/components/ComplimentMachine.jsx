@@ -9,7 +9,7 @@ export const ComplimentMachine = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        fetch('/compliments.json')
+        fetch(`${import.meta.env.BASE_URL}compliments.json`)
             .then(res => res.json())
             .then(data => {
                 setCompliments(data);
