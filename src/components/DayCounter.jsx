@@ -25,7 +25,7 @@ export const DayCounter = () => {
                 Today is {formattedToday}
             </motion.div>
 
-            <div className="glass-card p-8 inline-block max-w-2xl w-full mx-4">
+            <div className="glass-card p-6 sm:p-8 max-w-2xl w-[calc(100%-2rem)] mx-auto">
                 <h2 className="text-xl sm:text-2xl text-purple-200 mb-2 font-light">
                     We have been together for
                 </h2>
