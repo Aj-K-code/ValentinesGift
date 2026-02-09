@@ -2,13 +2,18 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { format } from 'date-fns';
 
+// TO ADD YOUR OWN PHOTOS:
+// 1. Add your photos to the /public/photos/ folder
+// 2. Name them: photo1.jpg, photo2.jpg, photo3.jpg, etc.
+// 3. Update the array below with the correct filenames
+// Example: "/photos/photo1.jpg", "/photos/photo2.jpg"
+
 const images = [
-    "https://images.unsplash.com/photo-1518199266791-5375a83190b7?q=80&w=800&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1621112904887-419379ce6824?q=80&w=800&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?q=80&w=800&auto=format&fit=crop",
-    // Memory 4 removed as requested
-    "https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?q=80&w=800&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?q=80&w=800&auto=format&fit=crop",
+    "/ValentinesGift/photos/photo1.png",
+    "/ValentinesGift/photos/photo2.png",
+    "/ValentinesGift/photos/photo3.png",
+    "/ValentinesGift/photos/photo4.png",
+    "/ValentinesGift/photos/photo5.png",
 ];
 
 export const Gallery = () => {
