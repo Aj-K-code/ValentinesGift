@@ -9,11 +9,11 @@ import { format } from 'date-fns';
 // Example: "/photos/photo1.jpg", "/photos/photo2.jpg"
 
 const images = [
-    "/ValentinesGift/photos/photo1.png",
-    "/ValentinesGift/photos/photo2.png",
-    "/ValentinesGift/photos/photo3.png",
-    "/ValentinesGift/photos/photo4.png",
-    "/ValentinesGift/photos/photo5.png",
+    "/ValentinesGift/photos/photo1.jpg",
+    "/ValentinesGift/photos/photo2.jpg",
+    "/ValentinesGift/photos/photo3.jpg",
+    "/ValentinesGift/photos/photo4.jpg",
+    "/ValentinesGift/photos/photo5.jpg",
 ];
 
 export const Gallery = () => {

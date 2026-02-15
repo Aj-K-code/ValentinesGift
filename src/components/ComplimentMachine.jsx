@@ -25,10 +25,11 @@ export const ComplimentMachine = () => {
     }, []);
 
     const triggerConfetti = () => {
-        const count = 200;
+        const count = 100;
         const defaults = {
             origin: { y: 0.7 },
-            colors: ['#ec4899', '#8b5cf6', '#f43f5e']
+            colors: ['#ec4899', '#8b5cf6', '#f43f5e'],
+            disableForReducedMotion: true
         };
 
         function fire(particleRatio, opts) {

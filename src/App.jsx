@@ -9,12 +9,6 @@ function App() {
   return (
     <div className="min-h-screen relative selection:bg-pink-500/30 overflow-x-hidden w-full max-w-full">
 
-      {/* Decorative Ambient Background Elements */}
-      <div className="fixed inset-0 pointer-events-none z-0">
-        <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-purple-900/20 rounded-full blur-[120px]" />
-        <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-pink-900/20 rounded-full blur-[120px]" />
-      </div>
-
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen py-16 gap-16">
 
         {/* Header Section */}
